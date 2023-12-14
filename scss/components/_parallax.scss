@@ -1,0 +1,33 @@
+.parallax {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    &__img {
+        position: relative;
+        z-index: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        &-1 {
+            background-image: url(../../assets/images/lacSnackBaseNautique.jpg); /* section accueil */
+        }
+        &-2 {
+            background-image: url(../../assets/images/chalet/chalet.jpg); /* section hebergements */
+        }
+        &-3 {
+            background-image: url(../../assets/images/lacSnackBaseNautique.jpg); /* section activités */
+        }
+        &-4 {
+            background-image: url(../../assets/images/20211011_194517.jpg); /* section tarifs */
+        }
+        &-5 {
+            background-image: url(../../assets/images/lacSnackBaseNautique.jpg); /* section contact */
+        }
+    }
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camping du lac de devesset</title>
+    <link rel="stylesheet" href="./scss/index.css">
+</head>
+
+<body class="body">
+    <nav class="sideNav">
+        <ul class="sideNav__list">
+            <li class="sideNav__item"><a class="sideNav__link" data-target="#accueil" href="#">Accueil</a></li>
+            <hr class="sideNav__line" />
+            <li class="sideNav__item"><a class="sideNav__link" data-target="#hebergements" href="#">Hébergements</a></li>
+            <hr class="sideNav__line" />
+            <li class="sideNav__item"><a class="sideNav__link" data-target="#avtivites" href="#">Activités</a></li>
+            <hr class="sideNav__line" />
+            <li class="sideNav__item"><a class="sideNav__link" data-target="#tarifs" href="#">Tarifs</a></li>
+            <hr class="sideNav__line" />
+            <li class="sideNav__item"><a class="sideNav__link" data-target="#contact" href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="main">
+        <header class="header">
+            <div class="header__logo">
+                <img src="./assets/images/cropped-logo-lac-devesset-2.png" alt="logo">
+            </div>
+        </header>
+        <div class="parallax">
+            <div class="parallax__img parallax__img-1">
+                <section id="accueil" class="section section__accueil">
+                    <h1 class="section__title">Le lac de Devesset</h1>
+                    <i class='section__slogan'>Les vacances grandeur nature</i>
+                </section>
+            </div>
+            <section id="hebergements" class="parallax__img parallax__img-2 section section__hebergement">
+                    <h1 class="section__title">Hébergements</h1>
+                    <div class="container">
+                        <div class="slider">
+                            <ul class="slider__list">
+                            </ul>
+                        </div>
+                        <div class="slider__dots"></div>
+                        <div class="slider__arrow slider__arrow-left prev">
+                            <img src="./assets/images/arrow_left.png" alt="fleche gauche">
+                        </div>
+                        <div class="slider__arrow slider__arrow-right next">
+                            <img src="./assets/images/arrow_right.png" alt="fleche droite">
+                        </div>
+                    </div>
+            </section>
+            <section id="avtivites" class="parallax__img parallax__img-3 section section__avtivites">
+                    <h1 class="section__title">Activités</h1>
+            </section>
+            <section id="tarifs" class="parallax__img parallax__img-4 section section__tarif">
+                    <h1 class="section__title">Tarifs</h1>
+                    <a href="./pages/tarifsBarRestaurant.html">Voir plus</a>
+            </section>
+            <div class="parallax__img parallax__img-5">
+                <section id="contact" class="section section__contact">
+                    <h1 class="section__title">Contact</h1>
+                </section>
+            </div>
+
+        </div>
+        <footer>footer</footer>
+    </main>
+    <script type="module" src="./js/app.js"></script>
+</body>
+
+</html>
