@@ -8,9 +8,9 @@
     // max-width: 1440px;
     height: 100%;
     margin: 0 auto;
+    text-align: center;
 
     &__title {
-
         margin-top: 10rem;
         padding: 20px;
         font-size: 72px;
@@ -35,12 +35,26 @@
 
 }
 
-@keyframes typing {
-    from {
-        width: 0;
-    }
+@media screen and (min-width: 768px) {
+    .section {
+        &__title {
+            font-size: 72px;
+        }
 
-    to {
-        width: 817px;
+        &__slogan {
+            font-size: 42px;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .section {
+        &__title {
+            font-size: 72px;
+        }
+
+        &__slogan {
+            font-size: 42px;
+        }
     }
 }

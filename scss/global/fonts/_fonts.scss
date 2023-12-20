@@ -1,0 +1,45 @@
+* {
+    font-family: "roboto";    
+}
+
+h1 {
+    font-size: 2em; // Taille de base pour h1
+}
+
+h2 {
+    font-size: 1.5em; // Taille de base pour h2
+}
+
+p {
+    font-size: 1.5em; // Taille de base pour p
+}
+
+// Pour les écrans de taille moyenne
+@media (min-width: 768px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 2.2em;
+    }
+}
+
+// Pour les grands écrans
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 5em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}

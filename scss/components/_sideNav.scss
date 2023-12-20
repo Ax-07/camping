@@ -3,13 +3,13 @@
     top: 0;
     left: 0;
     z-index: 3;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     width: 50px;
     transition: width 250ms ease-in-out;
     height: 100vh;
-    background-color: rgba(230,255,255,0.7);
+    background-color: rgba(230,255,255,0.8);
     cursor: pointer;
 
     &.open {
@@ -27,10 +27,9 @@
     &__list {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         height: 100%;
-        gap: 50px; /* gere l'espacement entre les li*/
         margin: 5px;
         padding: 5px;
         list-style: none;
@@ -49,11 +48,49 @@
         z-index: 4;
         text-decoration: none;
         color: #000;
-        font-size: 24px;
-        font-weight: 700;
+        font-size: 18px;
+        font-weight: 500;
     }
     &__line {
         width: 50px;
         border-bottom: 2px solid #000;
+    }
+}
+
+@media (min-width: 768px) {
+    .sideNav {
+        display: flex;
+        width: 50px;
+        &.open {
+            width: 220px;
+        }
+        &__list {
+            gap: 0px;
+        }
+        &__link {
+            font-size: 18px;
+        }
+        &__line {
+            width: 50px;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .sideNav {
+        width: 50px;
+        &.open {
+            width: 220px;
+        }
+        &__list {
+            gap: 0px;
+        }
+        &__link {
+            font-size: 20px;
+            font-weight: 500;
+        }
+        &__line {
+            width: 50px;
+        }
     }
 }

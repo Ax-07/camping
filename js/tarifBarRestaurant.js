@@ -33,6 +33,7 @@ const createTableForFamille = (famille, produits) => {
 }
 
 export const TARIFS_BAR_RESTAURANTS = async () => {
+    if ( window.location.pathname.includes('/pages/tarifsBarRestaurant.html') ) {
     try {
         const data = await getTarifsBarRestaurants();
         console.log(data);
@@ -57,4 +58,5 @@ export const TARIFS_BAR_RESTAURANTS = async () => {
     } catch (error) {
         console.error('Failed to initialize tarifsBarRestaurants:', error);
     }
+}
 };

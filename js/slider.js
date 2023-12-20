@@ -105,7 +105,6 @@ export class Slider {
     activate(e) {
         const items = document.querySelectorAll('.slider__item');
         const targetDot = e.target.closest('.slider__dot');
-        console.log(items, targetDot);
 
         if (targetDot) {
             const index = targetDot.dataset.id; console.log('targetDot', targetDot);
