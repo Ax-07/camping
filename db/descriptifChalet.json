@@ -16,12 +16,12 @@
     },
     {
         "id" : 3,
-        "src": "../assets/images/chalet/chambreChalet.jpg",
+        "src": "./assets/images/chalet/chambreChalet.jpg",
         "alt": "chambre du chalet"
     },
     {
         "id" : 4,
-        "src": "../assets/images/chalet/chambre2Chalet.jpg",
+        "src": "./assets/images/chalet/chambre2Chalet.jpg",
         "alt": "chambre du chalet"
     },
     {
@@ -31,12 +31,12 @@
     },
     {
         "id" : 6,
-        "src": "../assets/images/lacSnackBaseNautique.jpg",
+        "src": "./assets/images/lacSnackBaseNautique.jpg",
         "alt": "lac snack base nautique"
     },
     {
         "id" : 6,
-        "src": "../assets/images/lacSnackBaseNautique.jpg",
+        "src": "./assets/images/lacSnackBaseNautique.jpg",
         "alt": "lac snack base nautique"
     }
 ]
