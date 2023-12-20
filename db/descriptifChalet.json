@@ -1,17 +1,17 @@
 [
     {
         "id" : 0,
-        "src": "../assets/images/chalet/chalet.jpg",
+        "src": "./assets/images/chalet/chalet.jpg",
         "alt": "chalet"
     },
     {
         "id" : 1,
-        "src": "../assets/images/chalet/terrasseChalet.jpg",
+        "src": "./assets/images/chalet/terrasseChalet.jpg",
         "alt": "terrasse du chalet"
     },
     {
         "id" : 2,
-        "src": "../assets/images/chalet/salonChalets.jpeg",
+        "src": "./assets/images/chalet/salonChalets.jpeg",
         "alt": "salon du chalet"
     },
     {
