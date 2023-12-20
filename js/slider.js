@@ -1,4 +1,4 @@
-import { getDataChalets } from "../services/api/chaletApi.js";
+import { getDataChalets } from "/services/api/chaletApi.js";
 
 export class Slider {
     constructor() {
